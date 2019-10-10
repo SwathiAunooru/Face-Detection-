@@ -27,5 +27,5 @@ while True:
     cv2.imshow("Frame", image)
     key = cv2.waitKey(1) & 0xFF
     
-#    status = cv2.imwrite('faces_detected.jpg', image)
-#    print("[INFO] Image faces_detected.jpg written to filesystem: ", status)
+    status = cv2.imwrite('faces_detected.jpg', image)
+    print("[INFO] Image faces_detected.jpg written to filesystem: ", status)
